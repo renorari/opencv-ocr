@@ -1,0 +1,2 @@
+pyocr==0.8.5
+openvc-python==4.10.0.84
