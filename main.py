@@ -18,7 +18,7 @@ tool = tools[0]
 
 # 画像ファイルをOCRで読み込む
 res = tool.image_to_string(
-    Image.open("test.png")
+    Image.open(image)
     ,lang="eng")
 
 # 結果を出力
